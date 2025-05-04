@@ -85,10 +85,7 @@ Each folder contains a standalone Android Studio project with its own build conf
 These projects are intended for educational and demonstrative purposes.
 While they may serve as a foundation for real-world apps, they may not include full production-ready code (e.g., no complete security or performance optimizations).
 
-# 📬 Contact
 
-Feel free to reach out if you'd like to collaborate, contribute, or ask questions:
-📧 rahulchad34@gmail.com
 
 # 📄 License
 This repository and its contents are available under the MIT License.
