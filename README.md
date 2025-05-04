@@ -59,7 +59,7 @@ Each folder contains a standalone Android Studio project with its own build conf
 
 - Language: Java, Kotlin  
 - IDE: Android Studio  
-- Database: SQLite, SharedPreferences  
+- Database: SQLite, Firebase  
 - UI: XML Layouts, Material Components  
 - Version Control: Git, GitHub  
 - Build Tool: Gradle  
