@@ -50,10 +50,10 @@ public class MainActivity extends AppCompatActivity {
                                 cal.set(Calendar.DAY_OF_MONTH, dayOfMonth);
                                 cal.set(Calendar.MONTH, month);
                                 cal.set(Calendar.YEAR, year);
-                                SimpleDateFormat dateFormat = new SimpleDateFormat("dd-mm-yyyy");
+                                SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
                                 datetxt.setText(dateFormat.format(cal.getTime()));
                             }
-                        }, year, month, year);
+                        }, year, month,day);
                 datePickerDialog.show();
             }
         });
