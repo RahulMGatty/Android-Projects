@@ -19,8 +19,10 @@ This repository contains a curated collection of Android Studio projects develop
 ├── ActivityLifecycle/
 ├── BroadCast_Receiver/
 ├── Dialog_Demo/
+├── ExternalStorage/
 ├── Fibonacci_series/
 ├── Fragement_call/
+├── GPS_Demo/
 ├── InternalStorage/
 ├── Notes/
 ├── Service/
@@ -41,9 +43,13 @@ Each folder contains a standalone Android Studio project with its own build conf
 
 - Custom Dialog Examples
 
+- External Storage Example
+
 - Fibonacci Series Calculation
 
 - Fragment Navigation Example
+
+- GPS_Demo 
 
 - Internal Storage Example
 
