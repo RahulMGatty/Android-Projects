@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:textSize="30dp"
+        android:text="DataBase Demo" />
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="35dp"
+        android:inputType="text"
+        android:hint="Enter the user ID"/>
+
+    <EditText
+        android:id="@+id/editusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the user name"
+        android:inputType="textPersonName"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/editpaswrd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="35dp"
+        android:hint="Enter the password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btninsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickinsert"
+        android:text="INSERT" />
+
+    <Button
+        android:id="@+id/btnfetch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickfetch"
+        android:text="FETCH" />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickupdate"
+        android:text="UPDATE" />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickdelete"
+        android:text="DELETE" />
+
+</LinearLayout>
