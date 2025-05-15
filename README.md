@@ -18,6 +18,7 @@ This repository contains a curated collection of Android Studio projects develop
 /
 ├── ActivityLifecycle/
 ├── BroadCast_Receiver/
+├── Database/
 ├── Dialog_Demo/
 ├── ExternalStorage/
 ├── Fibonacci_series/
@@ -27,6 +28,7 @@ This repository contains a curated collection of Android Studio projects develop
 ├── Notes/
 ├── Service/
 ├── SharedPreference/
+├── VoiceNotepad/
 ├── AndroidNotes/        # Documentation or notes related to Android
 ├── .gitignore
 ├── LICENSE
@@ -41,7 +43,9 @@ Each folder contains a standalone Android Studio project with its own build conf
 
 - Broadcast Receiver Implementation
 
-- Custom Dialog Examples
+- Custom Dialog Example
+
+- Custom Database Example
 
 - External Storage Example
 
@@ -59,6 +63,7 @@ Each folder contains a standalone Android Studio project with its own build conf
 
 - SharedPreferences Example
 
+- VoiceNotepad
 
 
 ## 🛠 Technologies & Tools Used
