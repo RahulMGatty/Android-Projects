@@ -98,11 +98,6 @@ While they may serve as a foundation for real-world apps, they may not include f
 
 
 
-# 📄 License
-This repository and its contents are available under the MIT License.
 
----
-
-Would you like me to generate this as a downloadable `README.md` file you can upload directly to your repo?
 
 
